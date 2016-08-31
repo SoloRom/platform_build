@@ -131,8 +131,8 @@ function check_product()
         return
     fi
 
-    if (echo -n $1 | grep -q -e "^nexus_") ; then
-       CUSTOM_BUILD=$(echo -n $1 | sed -e 's/^nexus_//g')
+    if (echo -n $1 | grep -q -e "^solo_") ; then
+       CUSTOM_BUILD=$(echo -n $1 | sed -e 's/^solo_//g')
     else
        CUSTOM_BUILD=
     fi
