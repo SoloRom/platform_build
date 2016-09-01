@@ -1914,9 +1914,6 @@ bacon: otapackage
 	@echo -e ${CL_CYN}"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"${CL_RST}
 	@echo -e ""
 endif    # recovery_fstab is defined
-endif    # TARGET_NO_KERNEL != true
-endif    # TARGET_DEVICE != generic*
-endif    # TARGET_PRODUCT != sdk
 
 # -----------------------------------------------------------------
 # The update package
